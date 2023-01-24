@@ -9,7 +9,10 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- JS -->
     <script type="module" src="js/scripts.js"></script>
@@ -25,8 +28,8 @@
         <form class="buscar" data-cep="form">
           <label for="cep">Digite o seu CEP:</label>
           <div class="cep-fields">
-            <input type="text" data-cep="input" required />
-            <button data-cep="btn">Buscar</button>
+            <input type="text" data-cep="input" value="12922240" required />
+            <button>Buscar</button>
           </div>
         </form>
         <div class="cep"></div>
@@ -35,6 +38,15 @@
       <section class="bitcoin">
         <h2>Valor do bitcoin:</h2>
         <span data-bitcoin="value"></span>
+      </section>
+      <!-- Chuck Norris joke -->
+      <section class="norris">
+        <h2>Piada Chuck Norris</h2>
+        <figure>
+          <blockquote data-joke="quote"></blockquote>
+          <figcaption>—Chuck Norris, a lenda</figcaption>
+        </figure>
+        <button data-joke="btn">Próxima Piada</button>
       </section>
     </main>
   </body>
